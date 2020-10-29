@@ -1,0 +1,75 @@
+// @import "@fortawesome/fontawesome-free/css/all.css";
+// @import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+  width: 1400px;
+  background-color: black;
+  margin: 0;
+  color: white;
+}
+
+.aquarium {
+  margin: auto;
+  width: 1400px;
+  height: 700px;
+  background-image: url(static/water.jpg);
+  background-size: cover;
+  position: relative;
+}
+img {
+  width: 300px;
+}
+
+.fish1 {
+  position: absolute;
+  right: 200px;
+  top: 200px;
+  img {
+    width: 200px;
+  }
+}
+.fish2 {
+  position: absolute;
+  right: 900px;
+  top: 300px;
+
+  img {
+    width: 200px;
+  }
+}
+.fish3 {
+  position: absolute;
+  right: 200px;
+  top: 400px;
+}
+.plant1 {
+  position: absolute;
+  left: 200px;
+  bottom: 0px;
+}
+.plant2 {
+  position: absolute;
+  left: 500px;
+  bottom: 0px;
+}
+.plant3 {
+  position: absolute;
+  right: 50px;
+  bottom: 0px;
+
+  img {
+    width: 400px;
+  }
+}
+
+.fishes {
+  position: absolute;
+  right: 50px;
+  bottom: 400px;
+}
+
+.fishes1 {
+  position: absolute;
+  right: 50px;
+  bottom: 200px;
+}
